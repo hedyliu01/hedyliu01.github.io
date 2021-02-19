@@ -1,10 +1,51 @@
+@font-face {
+    font-family: "Mayenne Sans Regular";
+    src: url("./assets/Mayenne_Sans-Regular_web.woff2") format("woff2"); 
+  }
+
 body{
-margin: 0%;
+    font-family:"Mayenne Sans Regular";
+margin: 1.5cm;
+width: 100%;
+height: 100%;
+background: lightgoldenrodyellow;
 }
 
 
 .home {
-width: 100%;
-height: 100%;
-background: lightblue;
+    margin-left: 2cm;
+    text-align: left;
+    font-family:"Mayenne Sans Regular";
+    font-size: 80px;
+}
+
+.lab-title{
+    margin-right: 2cm;
+    text-align: right;
+    font-family:"Mayenne Sans Regular";
+    font-size: 50px; 
+    text-decoration-line: underline;
+}
+
+.lab{
+    margin-right: 2cm;
+    text-align: right;
+    font-size: 30px; 
+    text-decoration-line: underline;
+}
+
+.studio-title{
+    margin-left: 2cm;
+    text-align: left;
+    font-family:"Mayenne Sans Regular";
+    font-size: 50px; 
+    text-decoration-line: underline;
+
+}
+
+.studio{
+    margin-left: 2cm;
+    text-align: left;
+    font-size: 30px; 
+    text-decoration-line: underline;
 }
